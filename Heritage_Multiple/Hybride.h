@@ -3,7 +3,7 @@
 #include "Classic.h"
 class Hybride : public Electrique, public Classic
 {
-	protected:
+	private:
 		int mode;
 	public:
 		Hybride(string, int, int, int,int, string, int, int ,int );
